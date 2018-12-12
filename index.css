@@ -1,4 +1,6 @@
 body {
   color: green;
-  font-size: 40pt;
+  font-size: 20pt;
+  font-family: monospace;
+  white-space: pre;
 }
