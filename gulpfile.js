@@ -12,4 +12,4 @@ require('gulp-static-web')(gulp, {
   ],
 })
 
-gulp.task('default', sequence('static', ['postcss']))
+gulp.task('default', sequence('static', ['browserify', 'postcss']))
