@@ -4,7 +4,8 @@
   "author": "Tim James <tjames@tjames.com>",
   "license": "MIT",
   "scripts": {
-    "build": "gulp build"
+    "build": "gulp build",
+    "start": "gulp dev"
   },
   "dependencies": {
     "autoprefixer": "^9.4.2",
