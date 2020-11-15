@@ -15,6 +15,7 @@
     "lost": "^8.3.1",
     "postcss": "^8.1.0",
     "postcss-color-function": "^4.1.0",
+    "postcss-comment": "^2.0.0",
     "postcss-import": "^13.0.0",
     "postcss-nested-vars": "^1.0.0",
     "precss": "^4.0.0",
