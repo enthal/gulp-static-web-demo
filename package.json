@@ -20,5 +20,8 @@
     "postcss-nested-vars": "^1.0.0",
     "precss": "^4.0.0",
     "uniq": "^1.0.1"
+  },
+  "dependencies": {
+    "elel": "^1.0.0"
   }
 }

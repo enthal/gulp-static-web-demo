@@ -1,13 +1,3 @@
-const url = require('url')
-const unique = require('uniq')
-const app = require('./app')
-const thingy = require('./app/thingy')
+const el = require('elel');
 
-const data = [1, 2, 2, 3, 4, 5, 5, 5, 6]
-
-console.log(unique(data));
-document.body.innerHTML = "JS in browser says:"
-  +"\n\nUnique: "+unique(data)
-  +"\n\nRequire relative: "+app(123)
-  +"\n\nRequire relative more: "+thingy('zap')
-  +"\n\nURL: "+JSON.stringify(url.parse(window.location.href),0,2)
+el.select('body', require('./app'));

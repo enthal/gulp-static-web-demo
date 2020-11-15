@@ -2,7 +2,11 @@
 
 body {
   color: green;
-  font-size: 20pt;
   font-family: monospace;
-  white-space: pre;
+}
+
+.basis {
+  color: blue;
+  font-size: 20pt;
+  font-family: serif;
 }
